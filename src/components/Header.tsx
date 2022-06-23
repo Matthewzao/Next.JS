@@ -55,7 +55,7 @@ export function Header() {
                 <Flex align="center">
                     <Box mr="4" textAlign="right">
                         <Text>Matthew Gomes</Text>
-                        <Text color="gray.300">matthewmoralesdedsec@gmail.com</Text>
+                        <Text color="gray.300" fontSize="small">matthewmoralesdedsec@gmail.com</Text>
                     </Box>
                     <Avatar color="purple.500" bg="gray.400" name="Matthew Gomes"></Avatar>
                 </Flex>
