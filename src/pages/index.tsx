@@ -1,4 +1,5 @@
 import { Flex, Button, FormLabel, Stack, FormControl, Heading } from "@chakra-ui/react"
+import Link from "next/link"
 import { Input } from "../components/Input"
 
 export default function Home() {
@@ -33,7 +34,9 @@ export default function Home() {
           </FormControl>
           <Input name="Senha" label="Senha" type="password" />
         </Stack>
-        <Button type="submit" marginTop={8} colorScheme="pink">Entrar</Button>
+        <Link href="/dashboard">
+          <Button type="submit" marginTop={8} colorScheme="pink">Entrar</Button>
+        </Link>
       </Flex>
     </Flex>
   )
